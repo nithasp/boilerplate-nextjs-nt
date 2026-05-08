@@ -1,0 +1,76 @@
+{
+  "title": "Sailing Log",
+  "table": {
+    "docNumber": "Doc Number",
+    "vesselName": "Vessel Name",
+    "imoNumber": "IMO Number",
+    "eta": "ETA",
+    "berth": "Berth",
+    "status": "Status",
+    "vesselStatus": "Vessel Status",
+    "actions": "Actions"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "options": "Options"
+  },
+  "empty": "No sailing logs found",
+  "errors": {
+    "fetchFailed": "Failed to fetch sailing logs"
+  },
+  "detail": {
+    "title": "Sailing Log Detail - #{docNumber}",
+    "backToList": "← Back to Sailing Log",
+    "editButton": "Edit",
+    "editMode": "(Edit Mode)",
+    "noData": "No data found",
+    "errorPrefix": "Error:",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "berthNumber": "Berth #{number}",
+    "sections": {
+      "documentInfo": "Document Information",
+      "vesselInfo": "Vessel Information",
+      "agencyInfo": "Agency Information",
+      "berthsInfo": "Berths Information"
+    },
+    "fields": {
+      "documentNumber": "Document Number",
+      "status": "Status",
+      "requestDate": "Request Date",
+      "vesselStatus": "Vessel Status",
+      "estimatedArrival": "Estimated Arrival",
+      "estimatedDeparture": "Estimated Departure",
+      "berthDues": "Berth Dues",
+      "newShip": "New Ship",
+      "vesselName": "Vessel Name",
+      "vesselType": "Vessel Type",
+      "imoNumber": "IMO Number",
+      "officialNumber": "Official Number",
+      "callSign": "Call Sign",
+      "flag": "Flag",
+      "owner": "Owner",
+      "grossTonnage": "Gross Tonnage",
+      "netTonnage": "Net Tonnage",
+      "lengthOverall": "Length Overall",
+      "breadthExtreme": "Breadth Extreme",
+      "depth": "Depth",
+      "agencyName": "Agency Name",
+      "company": "Company",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "subdistrict": "Subdistrict",
+      "district": "District",
+      "province": "Province",
+      "postcode": "Postcode",
+      "berthNameTh": "Berth Name (TH)",
+      "berthNameEn": "Berth Name (EN)",
+      "purposeType": "Purpose Type",
+      "purpose": "Purpose"
+    }
+  }
+}

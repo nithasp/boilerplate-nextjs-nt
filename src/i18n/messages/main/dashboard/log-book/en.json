@@ -1,0 +1,75 @@
+{
+  "title": "Log Book",
+  "table": {
+    "documentNumber": "Document No.",
+    "status": "Status",
+    "vesselName": "Vessel Name",
+    "vesselType": "Vessel Type",
+    "berthJetty": "Berth/Jetty",
+    "agency": "Agency",
+    "mooringDate": "Mooring Date",
+    "departureDate": "Departure Date"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {current} of {total}"
+  },
+  "status": {
+    "arrival": "Arrival",
+    "departure": "Departure"
+  },
+  "detail": {
+    "title": "Log Book Detail - #{id}",
+    "backToList": "← Back to Log Book",
+    "noData": "No data found",
+    "errorPrefix": "Error:",
+    "sections": {
+      "logBookInfo": "Log Book Information",
+      "vesselInfo": "Vessel Information",
+      "berthDetails": "Berth Details",
+      "products": "Products"
+    },
+    "berthNumber": "Berth #{number}",
+    "fields": {
+      "status": "Status",
+      "voyage": "Voyage",
+      "documentNumber": "Document Number",
+      "agencyName": "Agency Name",
+      "grossTonnage": "Gross Tonnage",
+      "depth": "Depth",
+      "lastPort": "Last Port",
+      "nextPort": "Next Port",
+      "vesselName": "Vessel Name",
+      "vesselType": "Vessel Type",
+      "owner": "Owner",
+      "flag": "Flag",
+      "imoNumber": "IMO Number",
+      "mmsiNumber": "MMSI Number",
+      "officialNumber": "Official Number",
+      "callSign": "Call Sign",
+      "netTonnage": "Net Tonnage",
+      "loadWeight": "Load Weight",
+      "lengthOverall": "Length Overall",
+      "breadthExtreme": "Breadth Extreme",
+      "mainEngine": "Main Engine",
+      "bandAndModel": "Band and Model",
+      "licenseExpiredDate": "License Expired Date",
+      "berthName": "Berth Name",
+      "jettyName": "Jetty Name",
+      "purpose": "Purpose",
+      "cargoType": "Cargo Type",
+      "mooringDate": "Mooring Date",
+      "departureDate": "Departure Date"
+    },
+    "productTable": {
+      "productType": "Product Type",
+      "group": "Group",
+      "purpose": "Purpose",
+      "mTonQty": "M Ton Qty",
+      "rTonQty": "R Ton Qty",
+      "packageAmount": "Package Amount",
+      "receiver": "Receiver"
+    }
+  }
+}

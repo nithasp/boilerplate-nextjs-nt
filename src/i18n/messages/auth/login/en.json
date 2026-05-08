@@ -1,0 +1,18 @@
+{
+  "title": "Welcome Back",
+  "subtitle": "Please sign in to your account",
+  "username": "Username",
+  "usernamePlaceholder": "Enter your username",
+  "password": "Password",
+  "passwordPlaceholder": "••••••••",
+  "rememberMe": "Remember me",
+  "forgotPassword": "Forgot password?",
+  "signIn": "Sign In",
+  "signingIn": "Signing in...",
+  "noAccount": "Don't have an account?",
+  "signUp": "Sign up",
+  "successMessage": "Login successful! Redirecting...",
+  "errors": {
+    "default": "Login failed. Please try again."
+  }
+}

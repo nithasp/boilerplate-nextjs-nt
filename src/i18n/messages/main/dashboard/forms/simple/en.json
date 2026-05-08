@@ -1,0 +1,43 @@
+{
+  "title": "Simple Contact Form",
+  "subtitle": "Form demonstrating Input & Select components with validation (MUI + react-hook-form + zod)",
+  "fields": {
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "email": "Email Address",
+    "emailPlaceholder": "john.doe@example.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 (555) 123-4567",
+    "department": "Department",
+    "departmentPlaceholder": "Select department",
+    "departmentHelper": "Choose the department to contact",
+    "priority": "Priority Level",
+    "priorityPlaceholder": "Select priority",
+    "categories": "Categories",
+    "categoriesPlaceholder": "Select categories",
+    "categoriesHelper": "Select all applicable categories",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here..."
+  },
+  "actions": {
+    "submitting": "Submitting...",
+    "submitWithErrors": "Submit ({count} errors)",
+    "submitValid": "Submit ✓",
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Submitted Data",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "department": "Department",
+    "priority": "Priority",
+    "categories": "Categories",
+    "message": "Message"
+  },
+  "notifications": {
+    "submitSuccess": "Form submitted successfully!",
+    "submitError": "Failed to submit form. Please try again.",
+    "reset": "Form has been reset"
+  }
+}

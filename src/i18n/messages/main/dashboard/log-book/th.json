@@ -1,0 +1,75 @@
+{
+  "title": "สมุดบันทึก",
+  "table": {
+    "documentNumber": "เลขที่เอกสาร",
+    "status": "สถานะ",
+    "vesselName": "ชื่อเรือ",
+    "vesselType": "ประเภทเรือ",
+    "berthJetty": "ท่าเทียบเรือ/ท่าเรือ",
+    "agency": "หน่วยงาน",
+    "mooringDate": "วันที่จอดเรือ",
+    "departureDate": "วันที่ออกเรือ"
+  },
+  "pagination": {
+    "previous": "ก่อนหน้า",
+    "next": "ถัดไป",
+    "pageOf": "หน้า {current} จาก {total}"
+  },
+  "status": {
+    "arrival": "เข้าเทียบ",
+    "departure": "ออกจากท่า"
+  },
+  "detail": {
+    "title": "รายละเอียดสมุดบันทึก - #{id}",
+    "backToList": "← กลับไปที่สมุดบันทึก",
+    "noData": "ไม่พบข้อมูล",
+    "errorPrefix": "ข้อผิดพลาด:",
+    "sections": {
+      "logBookInfo": "ข้อมูลสมุดบันทึก",
+      "vesselInfo": "ข้อมูลเรือ",
+      "berthDetails": "รายละเอียดท่าเทียบเรือ",
+      "products": "สินค้า"
+    },
+    "berthNumber": "ท่าเทียบเรือ #{number}",
+    "fields": {
+      "status": "สถานะ",
+      "voyage": "เที่ยวเรือ",
+      "documentNumber": "เลขที่เอกสาร",
+      "agencyName": "ชื่อหน่วยงาน",
+      "grossTonnage": "ตันกรอส",
+      "depth": "ความลึก",
+      "lastPort": "ท่าเรือก่อนหน้า",
+      "nextPort": "ท่าเรือถัดไป",
+      "vesselName": "ชื่อเรือ",
+      "vesselType": "ประเภทเรือ",
+      "owner": "เจ้าของ",
+      "flag": "ธง",
+      "imoNumber": "หมายเลข IMO",
+      "mmsiNumber": "หมายเลข MMSI",
+      "officialNumber": "หมายเลขทางการ",
+      "callSign": "สัญญาณเรียกขาน",
+      "netTonnage": "ตันสุทธิ",
+      "loadWeight": "น้ำหนักบรรทุก",
+      "lengthOverall": "ความยาวรวม",
+      "breadthExtreme": "ความกว้างสูงสุด",
+      "mainEngine": "เครื่องยนต์หลัก",
+      "bandAndModel": "ยี่ห้อและรุ่น",
+      "licenseExpiredDate": "วันหมดอายุใบอนุญาต",
+      "berthName": "ชื่อท่าเทียบเรือ",
+      "jettyName": "ชื่อท่าเรือ",
+      "purpose": "วัตถุประสงค์",
+      "cargoType": "ประเภทสินค้า",
+      "mooringDate": "วันที่จอดเรือ",
+      "departureDate": "วันที่ออกเรือ"
+    },
+    "productTable": {
+      "productType": "ประเภทสินค้า",
+      "group": "กลุ่ม",
+      "purpose": "วัตถุประสงค์",
+      "mTonQty": "ปริมาณ M ตัน",
+      "rTonQty": "ปริมาณ R ตัน",
+      "packageAmount": "จำนวนหีบห่อ",
+      "receiver": "ผู้รับสินค้า"
+    }
+  }
+}

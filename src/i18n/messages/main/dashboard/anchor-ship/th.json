@@ -1,0 +1,57 @@
+{
+  "title": "เรือทอดสมอ",
+  "summary": "รวม: {total} รายการ | หน้า: {pages}",
+  "table": {
+    "id": "รหัส",
+    "flag": "ธง",
+    "vesselName": "ชื่อเรือ",
+    "imoNumber": "หมายเลข IMO",
+    "vesselType": "ประเภทเรือ",
+    "berth": "ท่าเทียบเรือ",
+    "anchorDate": "วันที่ทอดสมอ",
+    "aweighDate": "วันที่ถอนสมอ",
+    "duration": "ระยะเวลา",
+    "status": "สถานะ"
+  },
+  "empty": "ไม่พบข้อมูลเรือทอดสมอ",
+  "detail": {
+    "title": "รายละเอียดเรือทอดสมอ - #{id}",
+    "backToList": "← กลับไปที่เรือทอดสมอ",
+    "noData": "ไม่พบข้อมูล",
+    "errorPrefix": "ข้อผิดพลาด:",
+    "sections": {
+      "anchorInfo": "ข้อมูลการทอดสมอ",
+      "vesselInfo": "ข้อมูลเรือ"
+    },
+    "fields": {
+      "status": "สถานะ",
+      "voyage": "เที่ยวเรือ",
+      "pilotDate": "วันที่นักบิน",
+      "anchorDate": "วันที่ทอดสมอ",
+      "aweighDate": "วันที่ถอนสมอ",
+      "berth": "ท่าเทียบเรือ",
+      "latitude": "ละติจูด",
+      "longitude": "ลองจิจูด",
+      "grossTonnage": "ตันกรอส",
+      "depth": "ความลึก",
+      "lastPort": "ท่าเรือก่อนหน้า",
+      "nextPort": "ท่าเรือถัดไป",
+      "remark": "หมายเหตุ",
+      "vesselName": "ชื่อเรือ",
+      "vesselType": "ประเภทเรือ",
+      "owner": "เจ้าของ",
+      "flag": "ธง",
+      "imoNumber": "หมายเลข IMO",
+      "mmsiNumber": "หมายเลข MMSI",
+      "officialNumber": "หมายเลขทางการ",
+      "callSign": "สัญญาณเรียกขาน",
+      "netTonnage": "ตันสุทธิ",
+      "loadWeight": "น้ำหนักบรรทุก",
+      "lengthOverall": "ความยาวรวม",
+      "breadthExtreme": "ความกว้างสูงสุด",
+      "mainEngine": "เครื่องยนต์หลัก",
+      "bandAndModel": "ยี่ห้อและรุ่น",
+      "licenseExpiredDate": "วันหมดอายุใบอนุญาต"
+    }
+  }
+}

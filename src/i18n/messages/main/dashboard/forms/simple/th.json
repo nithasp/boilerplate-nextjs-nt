@@ -1,0 +1,43 @@
+{
+  "title": "แบบฟอร์มติดต่อแบบง่าย",
+  "subtitle": "แบบฟอร์มสาธิตคอมโพเนนต์ Input & Select พร้อมการตรวจสอบ (MUI + react-hook-form + zod)",
+  "fields": {
+    "fullName": "ชื่อ-นามสกุล",
+    "fullNamePlaceholder": "สมชาย ใจดี",
+    "email": "อีเมล",
+    "emailPlaceholder": "somchai@example.com",
+    "phone": "หมายเลขโทรศัพท์",
+    "phonePlaceholder": "+66 (81) 234-5678",
+    "department": "แผนก",
+    "departmentPlaceholder": "เลือกแผนก",
+    "departmentHelper": "เลือกแผนกที่ต้องการติดต่อ",
+    "priority": "ระดับความสำคัญ",
+    "priorityPlaceholder": "เลือกระดับความสำคัญ",
+    "categories": "หมวดหมู่",
+    "categoriesPlaceholder": "เลือกหมวดหมู่",
+    "categoriesHelper": "เลือกหมวดหมู่ที่เกี่ยวข้องทั้งหมด",
+    "message": "ข้อความ",
+    "messagePlaceholder": "เขียนข้อความของคุณที่นี่..."
+  },
+  "actions": {
+    "submitting": "กำลังส่ง...",
+    "submitWithErrors": "ส่ง ({count} ข้อผิดพลาด)",
+    "submitValid": "ส่ง ✓",
+    "reset": "รีเซ็ต"
+  },
+  "results": {
+    "title": "ข้อมูลที่ส่ง",
+    "fullName": "ชื่อ-นามสกุล",
+    "email": "อีเมล",
+    "phone": "โทรศัพท์",
+    "department": "แผนก",
+    "priority": "ระดับความสำคัญ",
+    "categories": "หมวดหมู่",
+    "message": "ข้อความ"
+  },
+  "notifications": {
+    "submitSuccess": "ส่งแบบฟอร์มสำเร็จ!",
+    "submitError": "ส่งแบบฟอร์มไม่สำเร็จ กรุณาลองใหม่",
+    "reset": "รีเซ็ตแบบฟอร์มแล้ว"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Anchor Ship",
+  "summary": "Total: {total} items | Pages: {pages}",
+  "table": {
+    "id": "ID",
+    "flag": "Flag",
+    "vesselName": "Vessel Name",
+    "imoNumber": "IMO Number",
+    "vesselType": "Vessel Type",
+    "berth": "Berth",
+    "anchorDate": "Anchor Date",
+    "aweighDate": "Aweigh Date",
+    "duration": "Duration",
+    "status": "Status"
+  },
+  "empty": "No anchor ship records found",
+  "detail": {
+    "title": "Anchor Ship Detail - #{id}",
+    "backToList": "← Back to Anchor Ship",
+    "noData": "No data found",
+    "errorPrefix": "Error:",
+    "sections": {
+      "anchorInfo": "Anchor Information",
+      "vesselInfo": "Vessel Information"
+    },
+    "fields": {
+      "status": "Status",
+      "voyage": "Voyage",
+      "pilotDate": "Pilot Date",
+      "anchorDate": "Anchor Date",
+      "aweighDate": "Aweigh Date",
+      "berth": "Berth",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "grossTonnage": "Gross Tonnage",
+      "depth": "Depth",
+      "lastPort": "Last Port",
+      "nextPort": "Next Port",
+      "remark": "Remark",
+      "vesselName": "Vessel Name",
+      "vesselType": "Vessel Type",
+      "owner": "Owner",
+      "flag": "Flag",
+      "imoNumber": "IMO Number",
+      "mmsiNumber": "MMSI Number",
+      "officialNumber": "Official Number",
+      "callSign": "Call Sign",
+      "netTonnage": "Net Tonnage",
+      "loadWeight": "Load Weight",
+      "lengthOverall": "Length Overall",
+      "breadthExtreme": "Breadth Extreme",
+      "mainEngine": "Main Engine",
+      "bandAndModel": "Band and Model",
+      "licenseExpiredDate": "License Expired Date"
+    }
+  }
+}

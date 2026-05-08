@@ -1,0 +1,12 @@
+{
+  "title": "Forgot Password",
+  "subtitle": "Enter your email and we'll send you a reset link.",
+  "email": "Email Address",
+  "emailPlaceholder": "you@example.com",
+  "submit": "Send Reset Link",
+  "backToLogin": "Back to login",
+  "successMessage": "If an account exists for that email, a reset link has been sent.",
+  "errors": {
+    "default": "Could not send reset link. Please try again."
+  }
+}

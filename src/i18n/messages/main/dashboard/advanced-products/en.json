@@ -1,0 +1,62 @@
+{
+  "cart": {
+    "title": "Shopping Cart",
+    "itemCount": "{count, plural, one {# item} other {# items}} in your cart",
+    "continueShopping": "Continue Shopping",
+    "clearCart": "Clear Cart",
+    "clearConfirm": "Are you sure you want to clear your cart?",
+    "color": "Color",
+    "removeFromCart": "Remove from cart",
+    "increaseQuantity": "Increase quantity",
+    "decreaseQuantity": "Decrease quantity",
+    "selectShop": "Select all items from {shop}",
+    "selectItem": "Select {name}",
+    "loading": "Loading cart...",
+    "refreshing": "Refreshing cart...",
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "Looks like you haven't added any items to your cart yet",
+      "startShopping": "Start Shopping"
+    },
+    "delivery": {
+      "title": "Delivery Address",
+      "empty": "No delivery address selected.",
+      "add": "Add Address"
+    },
+    "discount": {
+      "title": "Discount Code",
+      "placeholder": "Enter code...",
+      "apply": "Apply",
+      "available": "Available codes"
+    },
+    "payment": {
+      "title": "Payment Method"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "selected": "Selected ({count} items)",
+      "discount": "Discount ({code})",
+      "shipping": "Shipping",
+      "shippingFree": "Free",
+      "total": "Total",
+      "checkout": "Checkout ({count})"
+    },
+    "errors": {
+      "loadFailed": "Failed to load cart",
+      "tryAgain": "Try again"
+    },
+    "notifications": {
+      "updated": "Cart updated successfully",
+      "updateFailed": "Failed to update cart item",
+      "removed": "{name} removed from cart",
+      "removeFailed": "Failed to remove item",
+      "cleared": "Cart cleared",
+      "clearFailed": "Failed to clear cart",
+      "empty": "Select at least one item to checkout",
+      "checkout": "Proceeding to checkout...",
+      "maxStock": "Only {count} available in stock",
+      "discountApplied": "Discount {code} applied",
+      "invalidDiscount": "Invalid discount code"
+    }
+  }
+}

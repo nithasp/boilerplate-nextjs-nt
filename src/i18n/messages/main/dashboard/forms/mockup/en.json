@@ -1,0 +1,41 @@
+{
+  "title": "Complete Form Validation Mockup",
+  "subtitle": "Comprehensive demonstration of all validation types",
+  "techStack": "Using MUI + styled-components + react-hook-form + zod",
+  "stats": {
+    "totalFields": "Total Fields",
+    "validationErrors": "Validation Errors",
+    "formValid": "Form Valid",
+    "formModified": "Form Modified"
+  },
+  "sections": {
+    "additionalInfo": "✍️ Additional Information",
+    "additionalInfoSubtitle": "Long-form text with character limits",
+    "validationTypes": "🎯 Validation Types Demonstrated"
+  },
+  "fields": {
+    "bio": "Professional Bio",
+    "bioPlaceholder": "Write a brief professional bio about yourself...",
+    "bioHelper": "Required (50-500 characters) - {count}/500",
+    "coverLetter": "Cover Letter",
+    "coverLetterPlaceholder": "Write your cover letter here...",
+    "coverLetterHelper": "Optional (100-2000 characters) - {count}/2000"
+  },
+  "actions": {
+    "submitting": "Submitting...",
+    "submitWithErrors": "Submit Form ({count} errors)",
+    "submitValid": "Submit Form ✓",
+    "reset": "Reset Form"
+  },
+  "validationWarning": "⚠️ Please fix {count} validation {count, plural, one {error} other {errors}} before submitting",
+  "results": {
+    "title": "Form Submitted Successfully!",
+    "subtitle": "All validations passed ✓",
+    "dataLabel": "Submitted Data:"
+  },
+  "notifications": {
+    "submitSuccess": "Form submitted successfully!",
+    "submitError": "Failed to submit form. Please try again.",
+    "reset": "Form has been reset"
+  }
+}

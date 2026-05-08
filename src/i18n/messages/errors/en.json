@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "code": "404",
+    "badge": "Page Not Found",
+    "title": "Oops! We can't find that page.",
+    "description": "The page you are looking for might have been removed or is temporarily unavailable.",
+    "goHome": "Go Home"
+  },
+  "error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "fallbackMessage": "An unexpected error occurred.",
+    "tryAgain": "Try Again"
+  },
+  "globalError": {
+    "code": "500",
+    "subtitle": "Application error",
+    "description": "A critical error occurred. Please try refreshing the page.",
+    "tryAgain": "Try Again"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "แบบฟอร์มการตรวจสอบครบถ้วน",
+  "subtitle": "การสาธิตการตรวจสอบทุกประเภทอย่างครอบคลุม",
+  "techStack": "ใช้ MUI + styled-components + react-hook-form + zod",
+  "stats": {
+    "totalFields": "จำนวนฟิลด์ทั้งหมด",
+    "validationErrors": "ข้อผิดพลาดการตรวจสอบ",
+    "formValid": "แบบฟอร์มถูกต้อง",
+    "formModified": "แบบฟอร์มถูกแก้ไข"
+  },
+  "sections": {
+    "additionalInfo": "✍️ ข้อมูลเพิ่มเติม",
+    "additionalInfoSubtitle": "ข้อความยาวพร้อมจำกัดตัวอักษร",
+    "validationTypes": "🎯 ประเภทการตรวจสอบที่สาธิต"
+  },
+  "fields": {
+    "bio": "ประวัติมืออาชีพ",
+    "bioPlaceholder": "เขียนประวัติมืออาชีพของคุณสั้นๆ...",
+    "bioHelper": "จำเป็น (50-500 ตัวอักษร) - {count}/500",
+    "coverLetter": "จดหมายสมัครงาน",
+    "coverLetterPlaceholder": "เขียนจดหมายสมัครงานของคุณที่นี่...",
+    "coverLetterHelper": "ไม่บังคับ (100-2000 ตัวอักษร) - {count}/2000"
+  },
+  "actions": {
+    "submitting": "กำลังส่ง...",
+    "submitWithErrors": "ส่งแบบฟอร์ม ({count} ข้อผิดพลาด)",
+    "submitValid": "ส่งแบบฟอร์ม ✓",
+    "reset": "รีเซ็ตแบบฟอร์ม"
+  },
+  "validationWarning": "⚠️ กรุณาแก้ไข {count} ข้อผิดพลาดก่อนส่ง",
+  "results": {
+    "title": "ส่งแบบฟอร์มสำเร็จ!",
+    "subtitle": "ผ่านการตรวจสอบทั้งหมด ✓",
+    "dataLabel": "ข้อมูลที่ส่ง:"
+  },
+  "notifications": {
+    "submitSuccess": "ส่งแบบฟอร์มสำเร็จ!",
+    "submitError": "ส่งแบบฟอร์มไม่สำเร็จ กรุณาลองใหม่",
+    "reset": "รีเซ็ตแบบฟอร์มแล้ว"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "title": "บันทึกการเดินเรือ",
+  "table": {
+    "docNumber": "เลขที่เอกสาร",
+    "vesselName": "ชื่อเรือ",
+    "imoNumber": "หมายเลข IMO",
+    "eta": "เวลาที่คาดว่าจะมาถึง",
+    "berth": "ท่าเทียบเรือ",
+    "status": "สถานะ",
+    "vesselStatus": "สถานะเรือ",
+    "actions": "การดำเนินการ"
+  },
+  "actions": {
+    "view": "ดู",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "options": "ตัวเลือก"
+  },
+  "empty": "ไม่พบบันทึกการเดินเรือ",
+  "errors": {
+    "fetchFailed": "ไม่สามารถโหลดข้อมูลบันทึกการเดินเรือได้"
+  },
+  "detail": {
+    "title": "รายละเอียดบันทึกการเดินเรือ - #{docNumber}",
+    "backToList": "← กลับไปที่บันทึกการเดินเรือ",
+    "editButton": "แก้ไข",
+    "editMode": "(โหมดแก้ไข)",
+    "noData": "ไม่พบข้อมูล",
+    "errorPrefix": "ข้อผิดพลาด:",
+    "saving": "กำลังบันทึก...",
+    "saveChanges": "บันทึกการเปลี่ยนแปลง",
+    "cancel": "ยกเลิก",
+    "berthNumber": "ท่าเทียบเรือ #{number}",
+    "sections": {
+      "documentInfo": "ข้อมูลเอกสาร",
+      "vesselInfo": "ข้อมูลเรือ",
+      "agencyInfo": "ข้อมูลหน่วยงาน",
+      "berthsInfo": "ข้อมูลท่าเทียบเรือ"
+    },
+    "fields": {
+      "documentNumber": "เลขที่เอกสาร",
+      "status": "สถานะ",
+      "requestDate": "วันที่ขอ",
+      "vesselStatus": "สถานะเรือ",
+      "estimatedArrival": "เวลาที่คาดว่าจะมาถึง",
+      "estimatedDeparture": "เวลาที่คาดว่าจะออกเดินทาง",
+      "berthDues": "ค่าท่าเทียบเรือ",
+      "newShip": "เรือใหม่",
+      "vesselName": "ชื่อเรือ",
+      "vesselType": "ประเภทเรือ",
+      "imoNumber": "หมายเลข IMO",
+      "officialNumber": "หมายเลขทางการ",
+      "callSign": "สัญญาณเรียกขาน",
+      "flag": "ธง",
+      "owner": "เจ้าของ",
+      "grossTonnage": "ตันกรอส",
+      "netTonnage": "ตันสุทธิ",
+      "lengthOverall": "ความยาวรวม",
+      "breadthExtreme": "ความกว้างสูงสุด",
+      "depth": "ความลึก",
+      "agencyName": "ชื่อหน่วยงาน",
+      "company": "บริษัท",
+      "phone": "โทรศัพท์",
+      "email": "อีเมล",
+      "address": "ที่อยู่",
+      "subdistrict": "ตำบล",
+      "district": "อำเภอ",
+      "province": "จังหวัด",
+      "postcode": "รหัสไปรษณีย์",
+      "berthNameTh": "ชื่อท่าเทียบเรือ (ไทย)",
+      "berthNameEn": "ชื่อท่าเทียบเรือ (อังกฤษ)",
+      "purposeType": "ประเภทวัตถุประสงค์",
+      "purpose": "วัตถุประสงค์"
+    }
+  }
+}
