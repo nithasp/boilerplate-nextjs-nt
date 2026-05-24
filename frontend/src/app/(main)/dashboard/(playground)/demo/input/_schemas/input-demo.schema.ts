@@ -4,8 +4,10 @@ export const inputDemoSchema = z
   .object({
     fullName: z
       .string()
+      .min(1, "Full name is required")
       .min(3, "Full name must be at least 3 characters")
-      .max(50, "Full name must be less than 50 characters"),
+      .max(50, "Full name must be less than 50 characters")
+      .regex(/^[a-zA-Z\s'-]+$/, "Full name must contain letters only"),
 
     email: z
       .string()
