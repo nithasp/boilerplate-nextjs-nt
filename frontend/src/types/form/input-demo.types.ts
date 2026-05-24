@@ -1,5 +1,5 @@
 import type { z } from "zod";
-import type { inputDemoSchema } from "@/app/(main)/dashboard/(playground)/demo/input/_schemas/input-demo.schema";
+import type { formDemoSchema } from "@/app/(main)/dashboard/(playground)/form-demo/input/_schemas/input-demo.schema";
 
-export type InputDemoFormData = z.infer<typeof inputDemoSchema>;
-export type InputDemoFormInput = z.input<typeof inputDemoSchema>;
+export type FormDemoFormData = z.infer<typeof formDemoSchema>;
+export type FormDemoFormInput = z.input<typeof formDemoSchema>;

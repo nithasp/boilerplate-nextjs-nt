@@ -21,7 +21,7 @@ const PAGE_TITLES: Record<string, string> = {
   "/dashboard/advanced-products/products": "Advanced Products",
   "/dashboard/advanced-products/cart": "Cart",
   "/dashboard/demo/button": "Button Demo",
-  "/dashboard/demo/input": "Input Demo",
+  "/dashboard/form-demo/input": "Form Demo",
   "/dashboard/demo/usememo": "useMemo Demo",
   "/dashboard/demo/usecallback": "useCallback Demo",
 };

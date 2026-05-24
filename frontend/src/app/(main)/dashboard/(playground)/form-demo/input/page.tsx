@@ -12,10 +12,10 @@ import ErrorOutlineIcon from "@mui/icons-material/ErrorOutline";
 import Input from "@/shared/components/form/input";
 import Button from "@/shared/components/form/button";
 import ToastNotification from "@/lib/toast";
-import { inputDemoSchema } from "./_schemas/input-demo.schema";
+import { formDemoSchema } from "./_schemas/input-demo.schema";
 import type {
-  InputDemoFormData,
-  InputDemoFormInput,
+  FormDemoFormData,
+  FormDemoFormInput,
 } from "@/types/form/input-demo.types";
 
 const INPUT_COLORS = {
@@ -48,14 +48,14 @@ function FormSection({ icon, title, accent, children }: SectionProps) {
   );
 }
 
-export default function InputDemoPage() {
+export default function FormDemoPage() {
   const {
     control,
     handleSubmit,
     formState: { errors, isSubmitting },
     reset,
-  } = useForm<InputDemoFormInput, unknown, InputDemoFormData>({
-    resolver: zodResolver(inputDemoSchema),
+  } = useForm<FormDemoFormInput, unknown, FormDemoFormData>({
+    resolver: zodResolver(formDemoSchema),
     mode: "onChange",
     defaultValues: {
       fullName: "",
@@ -69,7 +69,7 @@ export default function InputDemoPage() {
     },
   });
 
-  const onSubmit = async (data: InputDemoFormData) => {
+  const onSubmit = async (data: FormDemoFormData) => {
     console.log("Form submitted:", data);
     await new Promise((resolve) => setTimeout(resolve, 1500));
     ToastNotification.success("Form submitted successfully!");

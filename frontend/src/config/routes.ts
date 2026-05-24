@@ -25,7 +25,7 @@ export const ROUTES = {
 
   // Playground (demo pages)
   demoButton: "/dashboard/demo/button",
-  demoInput: "/dashboard/demo/input",
+  demoInput: "/dashboard/form-demo/input",
   demoUseMemo: "/dashboard/demo/usememo",
   demoUseCallback: "/dashboard/demo/usecallback",
 
