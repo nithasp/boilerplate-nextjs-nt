@@ -93,7 +93,17 @@ export const useAuthStore = create<AuthStore>()(
       updateTokens: (accessToken, refreshToken) =>
         set({ accessToken, refreshToken }),
 
-      logout: () => {
+      logout: async () => {
+        const refreshToken = useAuthStore.getState().refreshToken;
+        // Best-effort backend revoke: don't block UI on failures
+        if (refreshToken) {
+          try {
+            const { authService } = await import("@/services/auth.service");
+            await authService.logout({ refreshToken });
+          } catch {
+            // Ignore — local cleanup still proceeds
+          }
+        }
         useAuthStore.persist.clearStorage();
         set({ ...INITIAL_STATE, status: "unauthenticated" });
         navigateTo(ROUTES.login);

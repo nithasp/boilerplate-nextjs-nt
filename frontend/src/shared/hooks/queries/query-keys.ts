@@ -33,6 +33,11 @@ export const queryKeys = {
     list: () => ["todos", "list"] as const,
     detail: (id: string | number) => ["todos", "detail", String(id)] as const,
   },
+  tasks: {
+    all: ["tasks"] as const,
+    list: () => ["tasks", "list"] as const,
+    detail: (id: string | number) => ["tasks", "detail", String(id)] as const,
+  },
   advancedProducts: {
     all: ["advanced-products"] as const,
     list: () => ["advanced-products", "list"] as const,

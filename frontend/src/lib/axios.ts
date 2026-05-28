@@ -51,7 +51,7 @@ api.interceptors.response.use(
 
           const { data: refreshResponse } =
             await axios.post<RefreshTokenResponse>(
-              `${env.NEXT_PUBLIC_API_URL}/refresh`,
+              `${env.NEXT_PUBLIC_API_URL}/auth/refresh`,
               { refreshToken: refreshTokenValue }
             );
 

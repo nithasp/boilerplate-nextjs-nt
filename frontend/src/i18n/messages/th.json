@@ -50,5 +50,51 @@
     "switchLabel": "ภาษา",
     "english": "English",
     "thai": "ไทย"
+  },
+  "auth": {
+    "login": {
+      "title": "เข้าสู่ระบบ",
+      "subtitle": "ยินดีต้อนรับกลับ กรุณากรอกข้อมูลของคุณ",
+      "username": "ชื่อผู้ใช้",
+      "usernamePlaceholder": "กรอกชื่อผู้ใช้",
+      "password": "รหัสผ่าน",
+      "passwordPlaceholder": "กรอกรหัสผ่าน",
+      "rememberMe": "จดจำฉันไว้",
+      "forgotPassword": "ลืมรหัสผ่าน?",
+      "signIn": "เข้าสู่ระบบ",
+      "signingIn": "กำลังเข้าสู่ระบบ...",
+      "noAccount": "ยังไม่มีบัญชี?",
+      "signUp": "สมัครสมาชิก",
+      "successMessage": "เข้าสู่ระบบสำเร็จ!",
+      "errors": {
+        "default": "ไม่สามารถเข้าสู่ระบบได้ กรุณาตรวจสอบข้อมูลและลองอีกครั้ง"
+      }
+    },
+    "register": {
+      "title": "สร้างบัญชีของคุณ",
+      "subtitle": "เริ่มจัดการงานของคุณภายในไม่กี่นาที",
+      "firstName": "ชื่อ",
+      "firstNamePlaceholder": "เช่น สมชาย",
+      "lastName": "นามสกุล",
+      "lastNamePlaceholder": "เช่น ใจดี",
+      "username": "ชื่อผู้ใช้",
+      "usernamePlaceholder": "ตั้งชื่อผู้ใช้",
+      "password": "รหัสผ่าน",
+      "passwordPlaceholder": "อย่างน้อย 8 ตัวอักษร",
+      "confirmPassword": "ยืนยันรหัสผ่าน",
+      "confirmPasswordPlaceholder": "กรอกรหัสผ่านอีกครั้ง",
+      "createAccount": "สร้างบัญชี",
+      "creatingAccount": "กำลังสร้างบัญชี...",
+      "haveAccount": "มีบัญชีอยู่แล้ว?",
+      "signIn": "เข้าสู่ระบบ",
+      "successMessage": "สร้างบัญชีสำเร็จ!",
+      "errors": {
+        "default": "ไม่สามารถสร้างบัญชีได้ กรุณาลองอีกครั้ง"
+      }
+    },
+    "forgotPassword": {
+      "title": "ลืมรหัสผ่าน",
+      "subtitle": "ฟีเจอร์รีเซ็ตรหัสผ่านยังไม่เปิดให้ใช้งาน"
+    }
   }
 }

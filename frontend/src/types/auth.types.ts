@@ -3,6 +3,13 @@ export interface LoginRequest {
   password: string;
 }
 
+export interface RegisterRequest {
+  username: string;
+  password: string;
+  firstName?: string;
+  lastName?: string;
+}
+
 export interface User {
   id: number;
   firstName: string;
@@ -10,15 +17,19 @@ export interface User {
   username: string;
 }
 
+export interface AuthSession {
+  user: User;
+  accessToken: string;
+  refreshToken: string;
+}
+
 export interface LoginResponse {
   status: number;
   message: string;
-  data: {
-    user: User;
-    accessToken: string;
-    refreshToken: string;
-  };
+  data: AuthSession;
 }
+
+export type RegisterResponse = LoginResponse;
 
 export interface RefreshTokenRequest {
   refreshToken: string;
@@ -31,6 +42,16 @@ export interface RefreshTokenResponse {
     accessToken: string;
     refreshToken: string;
   };
+}
+
+export interface LogoutRequest {
+  refreshToken?: string | null;
+}
+
+export interface LogoutResponse {
+  status: number;
+  message: string;
+  data: null;
 }
 
 export type AuthStatus = "idle" | "authenticated" | "unauthenticated";
@@ -50,7 +71,7 @@ export interface AuthActions {
     refreshToken: string
   ) => void;
   updateTokens: (accessToken: string, refreshToken: string) => void;
-  logout: () => void;
+  logout: () => Promise<void>;
 }
 
 export type AuthStore = AuthState & AuthActions;
@@ -60,7 +81,10 @@ export type PersistedAuth = Pick<
   "user" | "accessToken" | "refreshToken"
 >;
 
-export type LoginError = {
+export type AuthError = {
   message?: string;
   translation?: string;
 } & Record<string, unknown>;
+
+export type LoginError = AuthError;
+export type RegisterError = AuthError;

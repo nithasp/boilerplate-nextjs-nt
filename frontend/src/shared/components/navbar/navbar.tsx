@@ -13,6 +13,7 @@ const PAGE_TITLES: Record<string, string> = {
   "/dashboard/my-stats": "My Stats",
   "/dashboard/backside-management": "Backside Management",
   "/dashboard/todo": "Todo",
+  "/dashboard/tasks": "Tasks",
   "/dashboard/forms/simple": "Simple Form",
   "/dashboard/forms/mockup": "Mockup Form",
   "/dashboard/vtms/sailing-log": "Sailing Log",

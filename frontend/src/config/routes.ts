@@ -9,6 +9,7 @@ export const ROUTES = {
 
   // Auth
   login: "/login",
+  register: "/register",
   forgotPassword: "/forgot-password",
 
   // Admin
@@ -44,6 +45,10 @@ export const ROUTES = {
   // Todo (JSONPlaceholder demo)
   todo: "/dashboard/todo",
   todoDetail: (id: string | number) => `/dashboard/todo/${id}`,
+
+  // Tasks (backend-backed CRUD)
+  tasks: "/dashboard/tasks",
+  taskDetail: (id: string | number) => `/dashboard/tasks/${id}`,
 
   // Advanced Products
   advancedProducts: "/dashboard/advanced-products/products",

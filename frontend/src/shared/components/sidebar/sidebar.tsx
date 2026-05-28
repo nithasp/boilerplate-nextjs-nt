@@ -53,7 +53,7 @@ const Sidebar: React.FC = () => {
       icon: <DashboardIcon />,
     },
     { label: tNav("projects"), href: "/projects", icon: <ProjectsIcon /> },
-    { label: tNav("tasks"), href: "/tasks", icon: <TasksIcon /> },
+    { label: tNav("tasks"), href: ROUTES.tasks, icon: <TasksIcon /> },
     {
       label: tNav("documents"),
       href: "/documents",
