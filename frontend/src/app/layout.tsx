@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import "./globals.css";
 import { AppProviders } from "@/providers";
 import { siteConfig } from "@/config/site";
 import { getLocale } from "@/i18n/locale";
+import StyledComponentsRegistry from "@/lib/styled-components-registry";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,9 +49,13 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <AppProviders>{children}</AppProviders>
-        </NextIntlClientProvider>
+        <StyledComponentsRegistry>
+          <AppRouterCacheProvider options={{ enableCssLayer: true }}>
+            <NextIntlClientProvider locale={locale} messages={messages}>
+              <AppProviders>{children}</AppProviders>
+            </NextIntlClientProvider>
+          </AppRouterCacheProvider>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
