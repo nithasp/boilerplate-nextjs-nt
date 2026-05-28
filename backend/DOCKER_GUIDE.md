@@ -44,11 +44,11 @@ npm run watch
 ## What `docker-compose up` Does
 
 - Pulls `postgres:14-alpine` image (first time only)
-- Creates container `storefront-postgres` on port `5432`
+- Creates container `tutorial-psql-docker-postgres` on port `5432`
 - Creates `storefront_dev` (main) and `storefront_test` databases via `init-db.sh`
-- Builds the backend image and starts `storefront-backend` on port `3000`
+- Builds the backend image and starts `tutorial-psql-docker-backend` on port `3000`
 - Backend waits for PostgreSQL to be healthy before starting
-- Data persists in a Docker volume
+- Data persists in a Docker volume scoped to the Compose project name `tutorial-psql-docker`
 
 ## Common Commands
 
@@ -63,6 +63,18 @@ npm run watch
 | `docker-compose logs -f backend` | Stream backend logs |
 | `docker-compose logs postgres` | View database logs |
 | `docker-compose exec postgres psql -U storefront_user -d storefront_dev` | Open psql shell |
+
+## Running alongside another `backend/` project
+
+By default Docker Compose names the project after the parent folder. If you have two projects whose compose files both live in a folder called `backend/`, they will share the same volume (e.g. `backend_postgres_data`) and overwrite each other's database.
+
+This project pins an explicit Compose project name in `docker-compose.yml`:
+
+```yaml
+name: tutorial-psql-docker
+```
+
+For your other project, set a different `name:` (and ideally different `container_name:` values), e.g. `name: storefront-backend`. If you want both projects running at the same time, also remap the host port for one of them, e.g. `"5433:5432"`, and update `POSTGRES_PORT` in that project's `.env` accordingly.
 
 ## Troubleshooting
 
